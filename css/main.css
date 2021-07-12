@@ -60,7 +60,14 @@ body {
 }
 
 .app .todo-container .todo-list {
-  max-width: 30%;
+  max-width: 40%;
   list-style: none;
+}
+
+.app .todo {
+  margin: 0.5rem;
+  background: #fcfffa;
+  color: red;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
