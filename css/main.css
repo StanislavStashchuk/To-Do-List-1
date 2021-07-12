@@ -67,7 +67,21 @@ body {
 .app .todo {
   margin: 0.5rem;
   background: #fcfffa;
-  color: red;
+  color: #080707;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app .todo li {
+  flex: 1;
+}
+
+.app .todo .trash-btn {
+  background: #ff6f47;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
