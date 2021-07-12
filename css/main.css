@@ -60,7 +60,7 @@ body {
 }
 
 .app .todo-container .todo-list {
-  max-width: 40%;
+  max-width: 45%;
   list-style: none;
 }
 
@@ -83,5 +83,14 @@ body {
   color: #ffffff;
   border: none;
   padding: 1rem;
+  cursor: pointer;
+}
+
+.app .todo .complete-btn {
+  background: #ff6f47;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
