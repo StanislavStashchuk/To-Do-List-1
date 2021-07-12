@@ -62,8 +62,19 @@ body {
     .todo {
         margin: 0.5rem;
         background: #fcfffa;
-        color: rgb(255, 0, 0);
+        color: #080707;
         font-size: 1.5rem;
-
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            flex: 1;
+        }
+        .trash-btn {
+            background: #ff6f47;
+            color: #ffffff;
+            border: none;
+            padding: 1rem;
+        }
     }
 }
