@@ -22,7 +22,7 @@ function addTodo(event) {
     todoDiv.classList.add('todo');
     // Create <li></li>
     const newTodo = document.createElement('li');
-    newTodo.innerText = 'heeeey, or Hey';
+    newTodo.innerText = todoInput.value;
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
     // Creating buttons
