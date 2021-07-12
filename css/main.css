@@ -52,4 +52,15 @@ body {
   background: #fda085;
   color: #fcfffa;
 }
+
+.app .todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .todo-container .todo-list {
+  max-width: 30%;
+  list-style: none;
+}
 /*# sourceMappingURL=main.css.map */
