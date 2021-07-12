@@ -54,7 +54,7 @@ body {
         justify-content: center;
         align-items: center;
         .todo-list {
-            max-width: 40%;
+            max-width: 45%;
             list-style: none;
         }
     }
@@ -75,6 +75,14 @@ body {
             color: #ffffff;
             border: none;
             padding: 1rem;
+            cursor: pointer;
+        }
+        .complete-btn {
+            background: #ff6f47;
+            color: #ffffff;
+            border: none;
+            padding: 1rem;
+            cursor: pointer;
         }
     }
 }
